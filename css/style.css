@@ -50,6 +50,10 @@ body {
     line-height: 1.7;
     margin-top: 1rem;
   }
+  .header-left{
+    float: left;
+
+}
   
   .container {
     max-width: 960px;
