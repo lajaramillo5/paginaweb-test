@@ -50,6 +50,10 @@ body {
     line-height: 1.7;
     margin-top: 1rem;
   }
+  .header-left{
+    float: left;
+
+}
   
   .container {
     max-width: 960px;
@@ -61,6 +65,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* 30px 30px 30px or repeat(3, 1fr)*/
     grid-gap: 20px;
+  }
+  .grid-3-a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
   }
   .grid-2 {
     display: grid;
